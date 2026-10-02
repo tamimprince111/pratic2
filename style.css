@@ -1,0 +1,157 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.navbar{
+
+
+display: flex;
+justify-content: space-between;
+padding: 20px 150px;
+align-items: center;
+background-color: darkslategrey;
+
+position: fixed;
+width: 100%;
+
+}
+
+.Logo{
+
+color: rgb(9, 207, 214);
+
+}
+
+
+
+.menu{
+
+    display: flex;
+    gap: 30px;
+}
+
+
+.menu a{
+
+text-decoration: none;
+font-size: 18px;
+transition: all.4s;
+color: white;
+
+}
+
+
+.menu a:hover{
+
+    color:blue;
+}
+
+
+
+.buttons{
+
+display: flex;
+gap: 20px;
+align-items: center;
+
+}
+
+
+.btn1{
+
+text-decoration: none;
+font-size: 18px;
+display: inline-block;
+color: white;
+
+}
+
+
+.btn2{
+
+text-decoration: none;
+background-color: yellowgreen;
+color: black;
+padding: 15px 25px;
+border-radius: 12px;
+display: inline-block;
+}
+
+
+
+.btn2:hover{
+    background-color: maroon;
+}
+
+
+
+
+
+
+.header-section{
+
+
+background:linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0),)url(./image/mariya_m-coffee-shop-7369404_1920.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+align-items: center;
+text-align: center;
+color:black;
+
+}
+
+.hero-container{
+
+font-size: 20px;
+padding: 20px 0;
+
+
+
+}
+
+
+
+
+.btn3{
+
+text-decoration: none;
+background-color: yellowgreen;
+color: rgb(0, 0, 0);
+padding: 15px 25px;
+border-radius: 12%;
+font-size: 20px;
+display: inline-block;
+
+}
+
+
+
+
+.btn4{
+
+text-decoration: none;
+border: 1.5px solid white;
+color: black;
+padding: 15px 25px;
+border-radius: 12px;
+font-size: 20px;
+transition: .4s;
+margin-left: 10px;
+display: inline-block;
+
+
+}
+
+
+
+
